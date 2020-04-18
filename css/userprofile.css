@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 31, 2020, 7:13:08 PM
+    Author     : Zafrul Hasan Nasim
+*/
+
+.container
+{
+    width:900px;
+    height:400px;
+    margin: 18px auto;
+    background: red;
+    position:center;
+    animation: color-me-in 10s infinite; /* other keywords like "infinite alternate" can be useful here */
+}
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+  0% {
+    background: orange;
+  }
+  /* You could think of as "step 2" */
+  25%{
+      background:#ff00cc;
+  }
+  50% {
+    background: red;
+  }
+  75% {
+    background:#0000ff ;
+  }
+  100% {
+    background:orange;
+  }
+  
+}
+.form{
+   
+   position: absolute;
+  right:160;
+  width: 400px;
+  height: 120px;
+  
+}
+.vl{
+  border-left: 3px solid aqua;
+  height: 400px;
+  position: absolute;
+  right:665;
+  top:75;
+}
+.image{
+    position: absolute;
+    left:350;
+    top: 190;
+    
+}
+.namedept{
+    position: absolute;
+    left:347;
+    top: 335;
+    color:white;
+}
+.update{
+    position: absolute;
+    right: 80;
+    top:525;
+    
+   
+}
+.btnn{
+    background: red;
+    border: 3px solid red;
+    color:white;
+    font-size: large;
+    
+}
+.scroll{
+    
+    white-space: nowrap;
+   -webkit-animation: rightThenLeft 15s infinite;
+   position: absolute;
+    left:20;
+   top:22;
+}
+
+@-webkit-keyframes rightThenLeft {
+    0%   {left: 0%;}
+    50%  {left: 100%;}
+    100% {left: 0%;}
+
+}
+.updatemsg{
+   
+   font-size:30;
+   animation: bymove 4s infinite;
+}
+
+@keyframes bymove{
+   
+   0%{
+      color:red;
+      
+   }
+   25%{
+       color: blue;
+   }
+   50%{
+       color :yellow;
+   }
+   75%{
+       color:black;
+   }
+   100%{
+       color: white;
+   }
+
+}
+
+

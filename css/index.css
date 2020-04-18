@@ -1,0 +1,59 @@
+body
+            {
+                background-image:url("image/backgd.jpg") ;
+                background-size: 1400px 680px;
+                
+            }
+            
+            .welmsg{
+                position: absolute;
+                top:300;
+                left:460;
+                color: #009933;
+            animation: color-me-in 3s infinite; /* other keywords like "infinite alternate" can be useful here */
+}
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+  0% {
+    color: orange;
+  }
+  /* You could think of as "step 2" */
+  25%{
+      color:#ff00cc;
+  }
+  50% {
+    animation: color-me-in 10s infinite; /* other keywords like "infinite alternate" can be useful here */
+}
+
+@keyframes color-me-in {
+  /* You could think of as "step 1" */
+  0% {
+    color: orange;
+  }
+  /* You could think of as "step 2" */
+  25%{
+      color:#ff00cc;
+  }
+  50% {
+    color: red;
+  }
+  75% {
+    color:#0000ff ;
+  }
+  100% {
+    color:orange;
+  }
+  
+     color: red;
+  }
+  75% {
+    color:#0000ff ;
+  }
+  100% {
+    color:orange;
+  }
+  
+}
+            
+            

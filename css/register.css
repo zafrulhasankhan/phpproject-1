@@ -1,0 +1,78 @@
+
+body
+            {
+                background-image:url("image/backgd.jpg") ;
+                background-size: 1400px 680px;
+                
+            }
+            
+            
+            .reg_form{
+                
+                
+    width: 400px;
+    height: 480px;
+    margin: 20px auto;
+    background:red;
+    position: center;
+
+            }  
+            
+            .reg_form form{
+                
+                margin: 0;
+    padding: 0;
+    font-family: arial;
+    font-size: 50 cm;
+    color:wheat;
+    text-transform:none;
+    
+    text-align: center;
+    position: relative;
+    top: 5%;
+    transform: translateY(5%);
+            }
+            
+  .name{
+   
+    height: 35px;
+    width: 280px;
+    color:black;
+    background-color:#ffcccc;
+    font-style: italic;
+    
+    
+}
+.dept{
+    height: 35px;
+    width: 280px;
+    color: black;
+    font-style: italic;
+    background-color:#ffcccc;
+    
+}
+.email{
+   height: 35px;
+    width: 280px;
+    color: #009900;
+    font-style: italic;
+    background-color:#ffcccc;
+   
+}
+.mobile{
+    height: 35px;
+    width: 280px;
+    color: black;
+    font-style: italic;
+    background-color:#ffcccc;
+    
+}
+.pass
+{
+    height: 35px;
+    width: 280px;
+     color:black;
+     font-style: italic;
+    background-color:#ffcccc;
+    
+}
